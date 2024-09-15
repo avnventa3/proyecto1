@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>San Pedro de Atacama</title>
+<link rel="stylesheet" href="indexChile-3.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div id="contenedor-1"></div>
+<div id="contenedor-2"></div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="recursos/sanpedro1.jpeg"alt="Imagen 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="recursos/sanpedro2.jpeg" alt="Imagen 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="recursos/sanpedro3.jpeg" alt="Imagen 3">
+      </div>
+      
+      <!-- Agrega más slides según necesites -->
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+<a href="indexChile.html"><div id="retorno">Volver</div></a>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+                loop: true, // Permite que el carrusel sea continuo
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                speed: 600, // Velocidad de la animación en ms
+                autoplay: {
+                    delay: 3000, // Cambio automático de imagen cada 3 segundos
+                    disableOnInteraction: false, // El autoplay no se desactiva cuando el usuario interactúa
+                    },
+                });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+body{
+    background-color:yellow;
+    position:relative;
+}
+#titulo{
+    position:absolute;
+    left: 5px;
+    top:5px;
+    height: 20px;
+    width: 1400px;
+    color:blue;
+    margin:0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+#hitosOsorno ol {
+    margin: 0;
+    padding-left: 11px;
+}
+
+#hitosOsorno{
+    color:black;
+    background-color:red;
+    position:absolute;
+    top:50px;
+    left:5px;
+    width:400px;
+    height:1000px;
+    font-size:15px;
+    display:flex;
+    margin-left:0px;
+    box-sizing:border-box;
+    padding:20px;
+    border:15px;
+    line-height:2;
+
+}
+#descripcionOsorno{
+    box-sizing:border-box;
+    position:absolute;
+    top:650px;
+    left:440px;
+    width:960px;
+    height:400px;
+    color:black;
+    background-color:blue;
+    padding:30px;
+    margin:0px;
+    border:0px ;
+    display:flex;
+    justify-content:center;
+    line-height:1.5;
+    font-size:25px;
+    align-items:center;
+
+
+}
+#retorno{
+    position:absolute;
+    top:50px;
+    left:1500px;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    border-radius:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+}
+.swiper-container {
+    position:absolute;
+    top:50px;
+    left:440px;
+    width: 960px;
+    height: 500px;
+    overflow:hidden;
+   
+  }
+ 
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

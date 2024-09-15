@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Clima Actualizado</title>
+        <link rel="stylesheet" href="climaActualizado.css">
+    </head>
+    <body>
+        <div id="clima1"></div>
+        <div id="clima2"></div>
+        <div id="clima3"></div>
+        <div id="clima4"></div>
+        <a href="indexChile.html"><div id="retorno">volver</div></a>
+            <script>
+                 // Tu API Key de WeatherAPI.com
+                const apiKey = '42e5005e43cc4825972210659241009';
+
+                // Ciudad a consultar
+                const ciudad1 = 'Santiago';
+                const ciudad2 = 'Temuco';
+                const ciudad3 = 'Antofagasta';
+                const ciudad4 = 'Concepción';
+
+                // URL de la API
+                const url1 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${ciudad1}&lang=es`;
+                const url2 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${ciudad2}&lang=es`;
+                const url3 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${ciudad3}&lang=es`;
+                const url4 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${ciudad4}&lang=es`;
+
+                // Hacer la solicitud a la API
+                fetch(url1)
+                    .then(response => {
+                     if (!response.ok) {
+                         throw new Error('Error en la solicitud');
+                      }
+                      return response.json();
+                  })
+                 .then(data => {
+                      // Extraer datos del clima
+                      const temperatura1 = data.current.temp_c;
+                      const condicion1 = data.current.condition.text;
+                      const icono1 = data.current.condition.icon;
+
+                      // Actualizar el contenido del div con los datos del clima
+                      document.getElementById('clima1').innerHTML = `
+                          <h2>Clima en ${ciudad1}</h2>
+                           <p>  presenta una temperatura de ${temperatura1}°C, </p>
+                          <p>La condición actual es ${condicion1}</p>
+                         <img src="https:${icono1}" alt="Icono del clima">
+                      `;
+                 })
+                 .catch(error => {
+                        console.error('Hubo un problema con la solicitud:', error);
+                      document.getElementById('clima1').innerHTML = '<p>No se pudo cargar el clima</p>';
+                 });
+                // Hacer la solicitud a la API
+                fetch(url2)
+                    .then(response => {
+                     if (!response.ok) {
+                         throw new Error('Error en la solicitud');
+                      }
+                      return response.json();
+                  })
+                 .then(data => {
+                      // Extraer datos del clima
+                      const temperatura2 = data.current.temp_c;
+                      const condicion2 = data.current.condition.text;
+                      const icono2 = data.current.condition.icon;
+
+                      // Actualizar el contenido del div con los datos del clima
+                      document.getElementById('clima2').innerHTML = `
+                          <h2>Clima en ${ciudad2} </h2>
+                           <p>  presenta una temperatura de ${temperatura2}°C, </p>
+                          <p>La condición actual es ${condicion2}</p>
+                         <img src="https:${icono2}" alt="Icono del clima">
+                      `;
+                 })
+                 .catch(error => {
+                        console.error('Hubo un problema con la solicitud:', error);
+                      document.getElementById('clima2').innerHTML = '<p>No se pudo cargar el clima</p>';
+                 });
+                 
+                // Hacer la solicitud a la API
+                fetch(url3)
+                    .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Error en la solicitud');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Extraer datos del clima
+                    const temperatura3 = data.current.temp_c;
+                    const condicion3 = data.current.condition.text;
+                    const icono3 = data.current.condition.icon;
+
+                     // Actualizar el contenido del div con los datos del clima
+                    document.getElementById('clima3').innerHTML = `
+                        <h2>Clima en ${ciudad3}</h2>
+                        <p>  presenta una temperatura de ${temperatura3}°C, </p>
+                        <p>La condición actual es ${condicion3}</p>
+                        <img src="https:${icono3}" alt="Icono del clima">
+                    `;
+                })
+                .catch(error => {
+                        console.error('Hubo un problema con la solicitud:', error);
+                    document.getElementById('clima3').innerHTML = '<p>No se pudo cargar el clima</p>';
+                });
+                
+                // Hacer la solicitud a la API
+                fetch(url4)
+                    .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Error en la solicitud');
+                    }
+                    return response.json();
+                    })
+                    .then(data => {
+                    // Extraer datos del clima
+                    const temperatura4 = data.current.temp_c;
+                    const condicion4 = data.current.condition.text;
+                    const icono4 = data.current.condition.icon;
+
+                    // Actualizar el contenido del div con los datos del clima
+                    document.getElementById('clima4').innerHTML = `
+                        <h2>Clima en ${ciudad4}</h2>
+                        <p>  presenta una temperatura de ${temperatura4}°C, </p>
+                        <p>La condición actual es ${condicion4}</p>
+                        <img src="https:${icono4}" alt="Icono del clima">
+                    `;
+                    })
+                .catch(error => {
+                        console.error('Hubo un problema con la solicitud:', error);
+                    document.getElementById('clima4').innerHTML = '<p>No se pudo cargar el clima</p>';
+                });
+        
+       
+    </script>
+            
+    </body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>
+            Mapa de las Regiones de Chile
+        </title>
+        <link rel="stylesheet" href="mapaRegional.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
+  
+    </head>
+    <body >
+        
+        <div id="contenedor-1"> REGIÓN DE ARICA Y PARINACOTA. XV.<br> Situada en el extremo norte de Chile, esta
+             región se destaca por sus sitios arqueológicos precolombinos y la influencia cultural andina. <br>
+             El Parque Nacional Lauca y el lago Chungará son destacados por su impresionante belleza natural. Arica,
+              su capital, es conocida por sus playas y un clima desértico suave <br>
+        </div>
+        <div id="mapa1"></div>
+        <div id="mapaPais1">
+            <img src="recursos/RegionArica.png">
+        </div>
+            
+        <div id="contenedor-2"> REGIÓN DE TARAPACÁ. I.<br>
+             Ubicada en el norte de Chile, Tarapacá es famosa por su puerto libre, Iquique, que es un importante
+              centro comercial y de turismo. El desierto de Atacama ofrece paisajes espectaculares y oportunidades
+               para la exploración de geoglifos y salares. La región tiene una economía fuertemente ligada a la 
+               minería y el comercio.</div>
+        <div id="mapa2"></div>
+        <div id="mapaPais2">
+            <img src="recursos/RegionTarapaca.png">
+        </div>
+        
+        <div id="contenedor-3"> REGIÓN DE ANTOFAGASTA. II. <br>
+            Esta región es conocida como la capital minera de Chile, especialmente por la extracción de cobre. 
+            La Mano del Desierto y el observatorio Paranal son puntos de interés icónicos. Antofagasta combina 
+            zonas desérticas con una extensa línea costera que ofrece hermosas vistas y playas.</div>
+        <div id="mapa3"></div>
+        <div id="mapaPais3">
+            <img src="recursos/RegionAntofagasta.png">
+        </div>
+
+        <div id="contenedor-4"> REGIÓN DE ATACAMA. III. <br>Conocida por el Valle de la Luna y el Desierto de
+            Atacama, esta región es famosa por sus paisajes marcianos y cielos nocturnos entre los más claros del
+             mundo. Copiapó, la capital regional, es un centro histórico de la fiebre del oro en Chile. Atacama es 
+             también un destino popular para el turismo astronómico.</div>
+        <div id="mapa4"></div>
+        <div id="mapaPais4">
+            <img src="recursos/RegionAtacama.png">
+        </div>
+
+        <div id="contenedor-5"> REGIÓN DE COQUIMBO. IV. <br>Esta región es renombrada por su Observatorio La Silla,
+             parte del European Southern Observatory, y su producción de pisco. La Serena, su capital, ofrece una 
+             mezcla de playas bellas y arquitectura colonial. El Valle del Elqui es famoso por su cielo estrellado
+              y como lugar de energías místicas.</div>
+        <div id="mapa5"></div>
+        <div id="mapaPais5">
+            <img src="recursos/RegionCoquimbo.png">
+        </div>
+
+        <div id="contenedor-6"> REGIÓN DE VALPARAÍSO. V. <br>
+            Esta región portuaria es famosa por su colorido centro histórico, cerros vibrantes y una intensa vida 
+            cultural. Valparaíso es sede del Congreso Nacional de Chile y tiene una fuerte tradición naval. Viña
+             del Mar, parte de la misma región, es conocida por sus jardines, playas y el Festival Internacional 
+             de la Canción.</div>
+        <div id="mapa6"></div>
+        <div id="mapaPais6">
+            <img src="recursos/RegionValparaiso.png">
+        </div>
+
+
+        <div id="contenedor-7"> REGIÓN DE METROPOLITANA. RM. <br>Como el centro neurálgico de Chile, Santiago es 
+            una metrópolis vibrante con una oferta rica en cultura, gastronomía y entretenimiento. La región es 
+            también un importante centro económico y educativo del país. Los alrededores de Santiago ofrecen 
+            montañas y viñedos, ideales para escapadas de fin de semana.</div>
+        <div id="mapa7"></div>
+        <div id="mapaPais7">
+            <img src="recursos/RegionMetropolitana.png">
+        </div>
+
+
+        <div id="contenedor-8"> REGIÓN DE O'HIGGINS. VI. <br>Esta región es fundamental en la producción de vino 
+            chileno, destacando viñedos en el Valle de Colchagua y Cachapoal. Rancagua, su capital, es un centro 
+            histórico de la minería y la agricultura. La región también ofrece hermosos paisajes naturales y 
+            actividades rurales.</div>
+        <div id="mapa8"></div>
+        <div id="mapaPais8">
+            <img src="recursos/RegionOhiggins.png">
+        </div>
+
+        <div id="contenedor-9"> REGIÓN DEL MAULE. VII. <br>Maule es conocida por su agricultura, especialmente 
+            viñedos, frutales y producción artesanal. Talca, su capital, juega un papel importante en la historia 
+            de la independencia de Chile. La región también se destaca por su patrimonio natural en la Reserva 
+            Nacional Altos de Lircay.</div>
+        <div id="mapa9"></div>
+        <div id="mapaPais9">
+            <img src="recursos/RegionMaule.png">
+        </div>
+
+
+        <div id="contenedor-10"> REGIÓN DE ÑUBLE. XVI. <br>Esta región, relativamente nueva, es reconocida por sus
+             festividades y tradiciones campesinas. Chillán, su capital, es famosa por su mercado artesanal y las 
+             Termas de Chillán. La región ofrece una combinación de actividades agrícolas y turismo de aventura.</div>
+        <div id="mapa10"></div>
+        <div id="mapaPais10">
+            <img src="recursos/RegionÑuble.png">
+        </div>
+
+        <div id="contenedor-11"> REGIÓN DEL BIOBIO. VIII. <br>Con un importante puerto en Concepción, Biobío es un
+             centro industrial y de educación superior. La región tiene una fuerte presencia de la cultura mapuche
+              y una rica historia de movimientos sociales. La diversidad de paisajes incluye playas, bosques y 
+              montañas.</div>
+        <div id="mapa11"></div>
+        <div id="mapaPais11">
+            <img src="recursos/RegionBiobio.png">
+        </div>
+
+        <div id="contenedor-12"> REGIÓN DE LA ARAUCANÍA. IX.<br>Esta región es el corazón de la cultura mapuche,
+            con una gran importancia en la reivindicación de derechos indígenas. Temuco, su capital, es un centro 
+            de comercio y cultura. La región es famosa por su naturaleza prístina, incluyendo parques nacionales 
+            como Conguillío.</div>
+        <div id="mapa12"></div>
+        <div id="mapaPais12">
+            <img src="recursos/RegionAraucania.png">
+        </div>
+
+        <div id="contenedor-13"> REGIÓN DE LOS RÍOS. XIV.<br>Valdivia, su capital, es conocida por su historia, 
+            su cerveza artesanal y su universidad. La región se caracteriza por sus múltiples ríos y humedales, 
+            que ofrecen amplias oportunidades para el ecoturismo. Los Ríos es también un centro de estudios y 
+            conservación ambiental.</div>
+        <div id="mapa13"></div>
+        <div id="mapaPais13">
+            <img src="recursos/RegionRios.png">
+        </div>
+
+        <div id="contenedor-14"> REGIÓN DE LOS LAGOS. X.<br>Esta región es famosa por sus paisajes de lagos y 
+            volcanes, siendo un destino clave para el turismo de aventura en Chile. Puerto Montt, su capital, 
+            es un punto de partida hacia la Patagonia y los archipiélagos del sur. La región tiene una rica
+             tradición en la pesca y la acuicultura.</div>
+        <div id="mapa14"></div>
+        <div id="mapaPais14">
+            <img src="recursos/RegionLagos.png">
+        </div>
+
+        <div id="contenedor-15"> REGIÓN DE AYSEN. XI.<br>Conocida por su baja densidad poblacional y vastos
+             paisajes salvajes, es ideal para el ecoturismo y aventuras en la naturaleza. Coyhaique, su capital, 
+             es un hub para explorar fiordos y glaciares. La Carretera Austral es la ruta escénica que atraviesa 
+             la región.</div>
+        <div id="mapa15"></div>
+        <div id="mapaPais15">
+            <img src="recursos/RegionAysen.png">
+        </div>
+
+        <div id="contenedor-16"> REGIÓN DE MAGALLANES. XIII.<br>Punta Arenas, la capital, es la puerta de entrada a 
+            la Antártica y a parques nacionales como Torres del Paine. Esta región es crucial para la investigación
+             científica y el turismo en la Patagonia. También destaca por su historia de exploración y la presencia
+              de comunidades indígenas como los Yaganes.</div>
+        <div id="mapa16"></div>
+        <div id="mapaPais16">
+            <img src="recursos/RegionMagallanes.png">
+        </div>
+
+        <a href="indexChile.html"><div id="retorno">Volver</div></a>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script>
+            function initMaps() {
+            // Mapa 1: 
+            var mapa1 = L.map('mapa1').setView([-18.5960, -69.4784], 8); // Coordenadas de Arica y Parinacota
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa1);
+
+            // Mapa 2:
+            var mapa2 = L.map('mapa2').setView([-20.5081, -69.4784], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa2);
+            }
+
+            var mapa3 = L.map('mapa3').setView([-23.6500, -69.5707], 8); // Coordenadas de
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa3);
+
+            var mapa4 = L.map('mapa4').setView([-27.3605, -70.3314], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa4);
+
+            var mapa5 = L.map('mapa5').setView([-30.6570, -70.8826], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa5);
+
+            var mapa6 = L.map('mapa6').setView([-32.8771, -71.1903], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa6);
+
+            var mapa7 = L.map('mapa7').setView([-33.4378, -70.6505], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa7);
+
+
+            var mapa8 = L.map('mapa8').setView([-34.5755, -70.9722], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa8);
+
+            var mapa9 = L.map('mapa9').setView([-35.5800, -70.5715], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa9);
+
+            var mapa10 = L.map('mapa10').setView([-36.6002, -71.8689], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa10);
+
+            var mapa11 = L.map('mapa11').setView([-37.4500, -72.1416], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa11);
+
+            var mapa12 = L.map('mapa12').setView([-38.7399, -72.7729], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa12);
+
+            var mapa13 = L.map('mapa13').setView([-40.0923, -72.7729], 8); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa13);
+
+            var mapa14 = L.map('mapa14').setView([-41.9209, -73.1416], 7); // Coordenadas de 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa14);
+
+            var mapa15 = L.map('mapa15').setView([-45.5752, -73.0662], 6); // Coordenadas de s
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa15);
+
+            var mapa16 = L.map('mapa16').setView([-52.6483, -71.4571], 7); // Coordenadas 
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa16);
+            
+            window.onload=initMaps;
+
+            
+
+        </script>
+    </body>
+</html>

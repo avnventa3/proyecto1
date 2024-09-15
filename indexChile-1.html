@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title >Osorno</title>
+
+<link rel="stylesheet" href="indexChile-1.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <h1 id="titulo">Ciudad de Osorno</h1>
+    <div id="hitosOsorno">
+        <ol>
+            <li>Fundación original (1558): Osorno fue fundada por el conquistador español García Hurtado de Mendoza <br>
+                el 27 de marzo de 1558. Sin embargo, la ciudad fue destruida por los mapuches durante la Guerra de Arauco.
+            </li>
+            <li>Refundación (1796): Después de estar en ruinas por más de dos siglos, Osorno fue refundada el 22 de<br>
+            noviembre de 1796 por Ambrosio O'Higgins, entonces gobernador de Chile, para consolidar el control <br>
+            español en la región.</li>
+            <li>Inmigración alemana (1850-1870): Durante la segunda mitad del siglo XIX, Osorno se convirtió en un <br>
+            importante centro de inmigración alemana, lo que influyó significativamente en la cultura, arquitectura<br>
+            y desarrollo económico de la ciudad.</li>
+            <li>Incorporación al ferrocarril (1895): La ciudad se conectó al sistema ferroviario chileno en 1895, lo que <br>
+            impulsó su desarrollo comercial y facilitó el transporte de productos agrícolas y ganaderos.</li>
+            <li>Terremoto de 1960: Osorno fue una de las ciudades afectadas por el gran terremoto de Valdivia el 22 de <br>
+            mayo de 1960, el más fuerte registrado en la historia, que causó daños significativos en la infraestructura<br>
+            de la ciudad.</li>
+
+        </ol> 
+    </div>   
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="recursos/osorno1.jpeg"alt="Imagen 1">
+              </div>
+              <div class="swiper-slide">
+                <img src="recursos/osorno2.jpeg" alt="Imagen 2">
+              </div>
+              <div class="swiper-slide">
+                <img src="recursos/osorno3.jpeg" alt="Imagen 3">
+              </div>
+              
+              <!-- Agrega más slides según necesites -->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </div>
+       
+    <div id="descripcionOsorno">Osorno es una ciudad en el sur de Chile, ubicada en la Región de Los Lagos. Es conocida por su 
+        fuerte herencia cultural alemana y su economía basada en la agricultura y la ganadería. Osorno es un
+         importante centro de comercio en la región, y su arquitectura mezcla influencias europeas y chilenas, 
+         destacándose por su catedral y su plaza de armas. La ciudad también sirve como puerta de entrada a
+        destinos turísticos cercanos, como el Parque Nacional Puyehue.</div>
+    <a href="indexChile.html"><div id="retorno">Volver</div></a>
+    <script>
+            var swiper = new Swiper('.swiper-container', {
+                loop: true, // Permite que el carrusel sea continuo
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                speed: 600, // Velocidad de la animación en ms
+                autoplay: {
+                    delay: 3000, // Cambio automático de imagen cada 3 segundos
+                    disableOnInteraction: false, // El autoplay no se desactiva cuando el usuario interactúa
+                    },
+                });
+    
+    </script>
+</body>
+
+</html>
+
+
+

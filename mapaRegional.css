@@ -1,0 +1,617 @@
+body{
+    background-color:black;
+    position:relative;
+}
+#mapa1{
+    background-color:gray;
+    position:absolute;
+    top:210px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais1{
+    position:absolute;
+    top:210px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais1 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-1{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:200px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa2{
+    background-color:gray;
+    position:absolute;
+    top:910px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais2{
+    position:absolute;
+    top:910px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais2 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-2{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:900px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#mapa3{
+    background-color:gray;
+    position:absolute;
+    top:1610px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+
+#mapaPais3{
+    
+    position:absolute;
+    top:1610px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais3 img{
+    
+    width:100%;
+    height:100%;
+}
+#contenedor-3{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:1600px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#mapa4{
+    background-color:gray;
+    position:absolute;
+    top:2310px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais4{ 
+    position:absolute;
+    top:2310px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais4 img{
+    
+    width:100%;
+    height:100%;
+}
+#contenedor-4{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:2300px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#mapa5{
+    background-color:gray;
+    position:absolute;
+    top:3010px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais5{ 
+    position:absolute;
+    top:3010px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais5 img{
+    
+    width:100%;
+    height:100%;
+}
+#contenedor-5{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:3000px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa6{
+    background-color:gray;
+    position:absolute;
+    top:3700px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais6{ 
+    position:absolute;
+    top:3700px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais6 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-6{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:3700px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa7{
+    background-color:gray;
+    position:absolute;
+    top:4400px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais7{ 
+    position:absolute;
+    top:4400px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais7 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-7{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:4400px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa8{
+    background-color:gray;
+    position:absolute;
+    top:5100px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais8{ 
+    position:absolute;
+    top:5100px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais8 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-8{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:5100px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa9{
+    background-color:gray;
+    position:absolute;
+    top:5800px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais9{ 
+    position:absolute;
+    top:5800px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais9 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-9{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:5800px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa10{
+    background-color:gray;
+    position:absolute;
+    top:6500px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais10{ 
+    position:absolute;
+    top:6500px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais10 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-10{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:6500px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa11{
+    background-color:gray;
+    position:absolute;
+    top:7200px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais11{ 
+    position:absolute;
+    top:7200px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais11 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-11{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:7200px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa12{
+    background-color:gray;
+    position:absolute;
+    top:7900px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais12{ 
+    position:absolute;
+    top:7900px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais12 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-12{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:7900px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa13{
+    background-color:gray;
+    position:absolute;
+    top:8600px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais13{ 
+    position:absolute;
+    top:8600px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais13 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-13{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:8600px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa14{
+    background-color:gray;
+    position:absolute;
+    top:9300px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais14{ 
+    position:absolute;
+    top:9300px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais14 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-14{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:9300px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa15{
+    background-color:gray;
+    position:absolute;
+    top:10000px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais15{ 
+    position:absolute;
+    top:10000px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais15 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-15{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:10000px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mapa16{
+    background-color:gray;
+    position:absolute;
+    top:10700px;
+    left:650px;
+    width: 500px;
+    height: 500px;
+}
+#mapaPais16{ 
+    position:absolute;
+    top:10700px;
+    left:1200px;
+    width:500px;
+    height:500px;
+}
+#mapaPais16 img{
+    width:100%;
+    height:100%;
+}
+#contenedor-16{
+    background-color:rgba(128, 128, 128, 0.221);
+    position:absolute;
+    top:10700px;
+    left:20px;
+    height:520px;
+    width:500px;
+    color:white;
+    border-radius:20px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:23px;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#retorno{
+    background-color:gray;
+    position:absolute;
+    border-radius:150px;
+    top:100px;
+    left:1500px;
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+}

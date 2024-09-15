@@ -1,0 +1,349 @@
+body{
+    background-color:black;
+    position:relative;
+    border:0px;
+    margin:0px;
+
+}
+#contenedor-1{
+    background-color:yellow;
+    position:absolute;
+    top:100px;
+    left:50px;
+    height:400px;
+    width:1700px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+#texto1{
+    background-color:blue;
+    box-sizing: border-box;
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:380px;
+    width:1200px;
+    padding:0px;
+    border:10px solid red;
+    margin:00px;
+    display:flex;
+    justify-content:justify;
+    font-size:34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+#imagen1{
+    position:absolute;
+    top:10px;
+    left:1250px;
+    height:380px;
+    width:380px;
+    padding:0px;
+}
+#imagen1 img{
+    height:100%;
+    width:100%;
+}
+#contenedor-2{
+    background-color:yellow;
+    position:absolute;
+    top:600px;
+    left:50px;
+    height:400px;
+    width:1700px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+#texto2{
+    background-color:blue;
+    box-sizing: border-box;
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:380px;
+    width:1200px;
+    padding:0px;
+    border:10px solid red;
+    margin:00px;
+    display:flex;
+    justify-content:justify;
+    font-size:34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+#imagen2{
+    position:absolute;
+    top:10px;
+    left:1250px;
+    height:380px;
+    width:380px;
+    padding:0px;
+}
+#imagen2 img{
+    height:100%;
+    width:100%;
+}
+#contenedor-3{
+    background-color:yellow;
+    position:absolute;
+    top:1100px;
+    left:50px;
+    height:400px;
+    width:1700px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+#texto3{
+    background-color:blue;
+    box-sizing: border-box;
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:380px;
+    width:1200px;
+    padding:0px;
+    border:10px solid red;
+    margin:00px;
+    display:flex;
+    justify-content:justify;
+    font-size:34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+#imagen3{
+    position:absolute;
+    top:10px;
+    left:1250px;
+    height:380px;
+    width:380px;
+    padding:0px;
+}
+#imagen3 img{
+    height:100%;
+    width:100%;
+}
+#contenedor-4{
+    background-color:yellow;
+    position:absolute;
+    top:1600px;
+    left:50px;
+    height:400px;
+    width:1700px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+#texto4{
+    background-color:blue;
+    box-sizing: border-box;
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:380px;
+    width:1200px;
+    padding:0px;
+    border:10px solid red;
+    margin:00px;
+    display:flex;
+    justify-content:justify;
+    font-size:34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+#imagen4{
+    position:absolute;
+    top:10px;
+    left:1250px;
+    height:380px;
+    width:380px;
+    padding:0px;
+}
+#imagen4 img{
+    height:100%;
+    width:100%;
+}
+#contenedor-5{
+    background-color:yellow;
+    position:absolute;
+    top:2100px;
+    left:50px;
+    height:400px;
+    width:1700px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+#texto5{
+    background-color:blue;
+    box-sizing: border-box;
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:380px;
+    width:1200px;
+    padding:0px;
+    border:10px solid red;
+    margin:00px;
+    display:flex;
+    justify-content:justify;
+    font-size:34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+#imagen5{
+    position:absolute;
+    top:10px;
+    left:1250px;
+    height:380px;
+    width:380px;
+    padding:0px;
+}
+#imagen5 img{
+    height:100%;
+    width:100%;
+}
+#contenedor-6{
+    background-color:yellow;
+    position:absolute;
+    top:2600px;
+    left:50px;
+    height:400px;
+    width:1700px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+#texto6{
+    background-color:blue;
+    box-sizing: border-box;
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:380px;
+    width:1200px;
+    padding:0px;
+    border:10px solid red;
+    margin:00px;
+    display:flex;
+    justify-content:justify;
+    font-size:34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+#imagen6{
+    position:absolute;
+    top:10px;
+    left:1250px;
+    height:380px;
+    width:380px;
+    padding:0px;
+}
+#imagen6 img{
+    height:100%;
+    width:100%;
+}
+#contenedor-7{
+    background-color:yellow;
+    position:absolute;
+    top:3100px;
+    left:50px;
+    height:400px;
+    width:1700px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+#texto7{
+    background-color:blue;
+    box-sizing: border-box;
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:380px;
+    width:1200px;
+    padding:0px;
+    border:10px solid red;
+    margin:00px;
+    display:flex;
+    justify-content:justify;
+    font-size:34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+#imagen7{
+    position:absolute;
+    top:10px;
+    left:1250px;
+    height:380px;
+    width:380px;
+    padding:0px;
+}
+#imagen7 img{
+    height:100%;
+    width:100%;
+}
+#contenedor-8{
+    background-color:yellow;
+    position:absolute;
+    top:3600px;
+    left:50px;
+    height:400px;
+    width:1700px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+#texto8{
+    background-color:blue;
+    box-sizing: border-box;
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:380px;
+    width:1200px;
+    padding:0px;
+    border:10px solid red;
+    margin:00px;
+    display:flex;
+    justify-content:justify;
+    font-size:34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+#imagen8{
+    position:absolute;
+    top:10px;
+    left:1250px;
+    height:380px;
+    width:380px;
+    padding:0px;
+}
+#imagen8 img{
+    height:100%;
+    width:100%;
+}
+#espacioExtra{
+    background-color:black;
+    position:absolute;
+    top:4000px;
+    left:40px;
+    height:200px;
+    width:1800px;
+
+
+}
+#retorno{
+    position:absolute;
+    background-color:orange;
+    top:10px;
+    left:1450px;
+    height:60px;
+    width:300px;
+    font-size:35px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>
+            Mapa de Chile
+        </title>
+        <link rel="stylesheet" href="mapaNacional.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        function initMap() {
+            var mapa = L.map('contenedorMapa').setView([-33.4489, -70.6693], 8); // Santiago de Chile
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(mapa);
+        }
+    </script>
+    </head>
+    <body onload="initMap()">
+        <div id="contenedor-1">Chile es famoso por su forma extremadamente larga y estrecha. 
+            Se extiende a lo largo de 4,300 kilómetros de norte a sur, lo que lo convierte en uno de los 
+            países más largos del mundo. Sin embargo, su ancho promedio es de apenas 177 kilómetros.
+            <br><br>
+            Chile está situado en la costa suroeste de Sudamérica, limitando al norte con Perú, al este 
+            con Bolivia y Argentina, y al oeste con el Océano Pacífico. También tiene una frontera marítima 
+            con el Océano Pacífico Sur.<br>
+            <br>
+            Chile está ubicado en el Cinturón de Fuego del Pacífico, lo que lo convierte en una zona con 
+            alta actividad sísmica y volcánica. Ha experimentado algunos de los terremotos más grandes registrados,
+             como el terremoto de Valdivia en 1960, el más potente de la historia (9.5 en la escala de Richter).
+        </div>
+        <div id="contenedorMapa"></div>
+        <a href="indexChile.html"><div id="retorno">Volver</div></a>
+    </body>
+</html>
